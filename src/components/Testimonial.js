@@ -15,7 +15,61 @@ const Testimonial = () => {
          <h1 style={{textAlign:'center',marginTop:'100px'}}>Testimonials</h1>
          </div>
 
-        <div className='hero-image'>
+         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" id='testimg'>
+      {/* <img src="..." class="d-block w-100" alt="..."/> */}
+      <img style={{display:'block',margin:'auto',paddingTop:'40px'}} src={t2}/>
+             
+             <img className='nisan' style={{marginTop:'-75px',display:'block',margin:'auto'}} src={t3}/>
+            <img  style={{margin:'auto',display:'block',paddingTop:'100px'}} src={t4}/> 
+            <h6 style={{position:'relative',color:'white',textAlign:'center'}}><b>Jones Venus</b></h6>
+            <img style={{display:'block',margin:'auto'}} src={t5}/>    
+         
+
+            <p style={{color:'white',width:'100%',maxWidth:'989px',display:'block',margin:'auto',marginTop:'30px',textAlign:'justify'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, </p>   
+
+
+    </div>
+    <div class="carousel-item" id='testimg'>
+      {/* <img src="..." class="d-block w-100" alt="..."/> */}
+      <img style={{display:'block',margin:'auto',paddingTop:'40px'}} src={t2}/>
+             
+             <img className='nisan' style={{marginTop:'-75px',display:'block',margin:'auto'}} src={t3}/>
+            <img  style={{margin:'auto',display:'block',paddingTop:'100px'}} src={t4}/> 
+            <h6 style={{position:'relative',color:'white',textAlign:'center'}}><b>Jones Venus</b></h6>
+            <img style={{display:'block',margin:'auto'}} src={t5}/>    
+         
+
+            <p style={{color:'white',width:'100%',maxWidth:'989px',display:'block',margin:'auto',marginTop:'30px',textAlign:'justify'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, </p>   
+
+
+    </div>
+    <div class="carousel-item" id='testimg'>
+      {/* <img src="..." class="d-block w-100" alt="..."/> */}
+      <img style={{display:'block',margin:'auto',paddingTop:'40px'}} src={t2}/>
+             
+             <img className='nisan' style={{marginTop:'-75px',display:'block',margin:'auto'}} src={t3}/>
+            <img  style={{margin:'auto',display:'block',paddingTop:'100px'}} src={t4}/> 
+            <h6 style={{position:'relative',color:'white',textAlign:'center'}}><b>Jones Venus</b></h6>
+            <img style={{display:'block',margin:'auto'}} src={t5}/>    
+         
+
+            <p style={{color:'white',width:'100%',maxWidth:'989px',display:'block',margin:'auto',marginTop:'30px',textAlign:'justify'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, </p>   
+
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        {/* <div className='hero-image'>
         <div  className='testimg'>
           
             <div className="hero-text">     
@@ -29,13 +83,13 @@ const Testimonial = () => {
               <img style={{display:'block',margin:'auto'}} src={t5}/>    
            
 
-              <p style={{color:'white',width:'100%',maxWidth:'989px',display:'block',margin:'auto',marginTop:'30px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, </p>   
+              <p style={{color:'white',width:'100%',maxWidth:'989px',display:'block',margin:'auto',marginTop:'30px',textAlign:'justify'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, </p>   
 
  
 
                 </div>
             </div>
-        </div>
+        </div> */}
          
 
         <div>
