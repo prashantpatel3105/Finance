@@ -29,7 +29,7 @@ const About = () => {
                         <img  id='aboutimg3' style={{height:'510px',width:'100%'}}  src={a3}/>
                         <div id='abouttext' style={{position:'relative'}} className='hero-text'>
                             <h3 style={{color:'white',textAlign:'center',marginLeft:'-100px',marginTop:'30px'}}>Who We Are</h3>
-                            <p style={{color:'white',textAlign:'center',width:'100%',marginLeft:'10px',justifyContent:'center'}}>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit. Nunc vulputate libero et velit<br/> interdum, ac aliquet odio mattis. Class aptent<br/> taciti sociosqu ad litora torquent per conubia<br/> nostra, per inceptos himenaeos.Class aptent<br/> taciti sociosqu ad litora torquent per conubia <br/>nostra, per inceptos himenaeos.</p>
+                            <p style={{color:'white',textAlign:'justify',width:'100%',marginLeft:'10px',textAlign:'center',justifyContent:'center'}}>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit. Nunc vulputate libero et velit<br/> interdum, ac aliquet odio mattis. Class aptent<br/> taciti sociosqu ad litora torquent per conubia<br/> nostra, per inceptos himenaeos.Class aptent<br/> taciti sociosqu ad litora torquent per conubia <br/>nostra, per inceptos himenaeos.</p>
                             <button style={{marginLeft:'100px'}} className='btnabout'>Read More</button>
                        
                         </div>
