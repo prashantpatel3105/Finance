@@ -1,7 +1,7 @@
 
 body{
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth !important;
 }
 #ourproject{
   justify-content: center;
@@ -16,7 +16,6 @@ body{
 .project-main{
   background-color: #f2f2f2;
   background-size: cover;
-
 }
 
 .contact-main{
@@ -43,7 +42,7 @@ body{
   background-size: cover;
   width: 100%;
 }
-.testimg{
+#testimg{
   background-image: url('./img/t1.png');
   background-size: cover;
   height: 600px;
@@ -156,9 +155,7 @@ body{
   text-align: center;
   
 }
-.icon:hover{
-  color: white !important;
-}
+
 
 input[type=text], select, textarea {
   width: 600px;
@@ -204,158 +201,7 @@ input[type=submit]:hover {
   margin-top: -400px;
   z-index: 4;
 }
-/* @media(min-width:280px){
-  .h1{
-    max-width:1540px;
-  }
-  .container-fluid{
-    width: 1540px;
-  }
-  .navbar{
-    max-width:1540px;
-  }
-}
-@media(max-width:1400px){
-  .h1{
-    width:1540px
-  }
-  .navbar{
-    width:1540px;
-  }
-}
-@media(max-width:1540px){
-  .h1{
-    max-width: 1540px;
-  }
-  #servicecard{
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
-}
-@media(min-width:576px){
-  .h1{
-    max-width: 1840px;
-  }
-}
-@media(max-width:1200px){
-  .h1{
-    width: 1540px;
-  }
-}
-@media(max-width:1400px){
-  .h1{
-    width: 1400px;
-  }
-  #aboutrow{
-    margin-left: -100px !important;
-  }
-  #ourproject{
-    margin-left: -20px !important;
-  }
-}
-@media(max-width:768px){
-  #ourproject{
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
-}
-@media(max-width:768px){
-  #review{
-    margin-left: 600px;
-  }
-  #footrow{
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
-  #footrow2{
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
-  
-}
-@media(max-width:1200px){
-   #aboutrow{
-    margin-left: -150px !important;
-  }
-}
-@media(max-width:992px){
-  #aboutrow{
-    margin-left: -270px !important;
-  }
- #ourproject{
-    margin-left: -80px !important;
-    width: 400px;
- }
-  }
-  @media(max-width:768px){
-    #ourproject{
-      margin-left: -200px !important;
-    }
-    #ourproject.row{
-      width: 950px !important;
-      margin-left: -20px !important;
-    }
-    #aboutimg3{
-      margin-left: 130px;
-    }
-    .textboder{
-      margin-left: 370px;
-    }
-    #abouttext{
-      margin-left: 150px;
-    }
-    #abouttext h3{
-      margin-right: 626px;
-    }
-   
-    #aboutimg2{
-      margin-top: -2px ;
-    }
-  }
-  @media(max-width:576px){
-    #ourproject{
-      margin-left: 220px !important;
-      width: 200px;
-    }
-    #projectpage{
-      margin-left: 70px;
-    }
-    
-    #review1{
-      margin-left: -550px !important;
-      width: 300px;
-      display: block;
-      margin: auto;
-    }
-    #mainreview{
-      display: grid;
-      grid-template-columns: auto;
-    }
-    #aboutimg3{
-      margin-left: 600px;
-    }
-    .textboder{
-      margin-left: 870px;
-    }
-    #abouttext{
-      margin-left: 630px;
-    }
-    #abouttext h3{
-      margin-left: 120px ;
-      width: 300px;
-    }
-   #main{
-    margin-left: 1150px;
-    flex-direction: column;
-   }
-   
 
-    
-    
-    #aboutmain{
-      margin-left: 500px;
-    }
-  } */
 .nisan{
   display: block;
   margin: auto;
@@ -382,10 +228,19 @@ input[type=submit]:hover {
     width:100%;
   }
   #ourproject{
-    margin-left: 130px;
+    /* margin-left: 130px; */
   }
   #review1{
     margin-left: 130px;
+  }
+  .text-home{
+    padding-top: 380px !important;
+  }
+  #foot-icon{
+    margin-left: 250px;
+  }
+  #foot-icon2{
+    margin-left: 280px;
   }
   #navbarNavDropdown{
     background-color: rgba(255, 255, 255, 0.24);
@@ -394,13 +249,13 @@ input[type=submit]:hover {
 }
 @media only screen and (max-width:850px){
   #ourproject{
-    margin-left: 130px;
+    /* margin-left: 130px; */
    
   }
 }
 @media only screen and (max-width:615px){
   #ourproject{
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
 }
 @media only screen and (max-width:576px){
@@ -413,8 +268,21 @@ input[type=submit]:hover {
     margin-left: 90px;
   }
   #ourproject{
-    margin-left: 70px;
-   
+    /* margin-left: 70px; */
+   }
+   #foot-icon{
+    margin-left: 140px;
+  }
+  #foot-icon2{
+    margin-left: 190px;
+  }
+}
+@media only screen and (max-width:548px){
+  #foot-icon{
+    margin-left: 40px;
+  }
+  #foot-icon2{
+    margin-left: 100px;
   }
 }
 @media only screen and (max-width:557px){
@@ -426,6 +294,12 @@ input[type=submit]:hover {
   #review1{
     margin-left: 20px;
   }
+  #foot-icon{
+    margin-left: 5px;
+  }
+  #foot-icon2{
+    margin-left: 40px;
+  }
 }
 @media only screen and (max-width:850px){
   #fname{
@@ -435,7 +309,7 @@ input[type=submit]:hover {
 }
 @media only screen and (max-width:605px){
   #ourproject{
-    margin-left: 25px;
+    margin-left: 0px;
    
   }
 }
