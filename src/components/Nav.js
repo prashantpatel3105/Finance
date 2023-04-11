@@ -9,7 +9,6 @@ const Nav = () => {
          
             <nav style={{width:'100%'}} class="navbar navbar-expand-lg ">
   <div   class="container">
-    {/* <a class="navbar-brand" href="#">Navbar</a> */}
    <div className='finance-main'>
      <img className='logo' src={logo}/>
       <div><a style={{marginTop:'70px',marginLeft:'58px',fontFamily:'Gugi400'}}>FINANCE ADVISO</a></div>
@@ -21,7 +20,7 @@ const Nav = () => {
     <div style={{position:'relative'}} class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a style={{color:'white'}} class="nav-link active"  aria-current="page" href="#homepage"><b>HOME</b></a>
+          <a style={{color:'white'}} class="nav-link active"   href="#homepage"><b>HOME</b></a>
         </li>
         <li class="nav-item">
           <a style={{color:'white'}} class="nav-link active"  href="#servicepage"><b>OUR SERVICES</b></a>
@@ -42,6 +41,7 @@ const Nav = () => {
     </div>
   </div>
 </nav>
+
 
     </div>
   )
